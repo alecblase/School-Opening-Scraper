@@ -24,9 +24,27 @@ if __name__ == '__main__':
     # disabledStates = ["arizona", "virginia"]
     #logging.basicConfig(filename='app.log', filemode='a', format='%(asctime)s - %(message)s', level=logging.INFO)
     # Currently working states <-- ADD STATES BELOW
-    currentStates = ["alabama", "colorado", "illinois", "new_mexico", "maryland", "ohio", "oregon", "south_carolina",
-                     "tennessee", "washington", "north_carolina", "connecticut", "rhode_island", "virginia", "hawaii", 
-                     "missouri", "idaho", "louisiana", "new_york"]
+    currentStates = [
+        "alabama",
+        # "colorado",
+        # "connecticut",
+        # "hawaii",
+        # "idaho",
+        "illinois",
+        "louisiana",
+        # "new_mexico",
+        # "new_york",
+        "north_carolina",
+        # "maryland",
+        # "missouri",
+        # "ohio",
+        # "oregon",
+        "rhode_island",
+        "south_carolina",
+        "tennessee",
+        # "virginia",
+        # "washington",
+    ]
 
     # Run with Box integration flag (defaults to True)
     useBox = True
