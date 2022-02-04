@@ -24,3 +24,5 @@ pip-log.txt
 
 # misc
 **/.DS_Store
+
+env/
